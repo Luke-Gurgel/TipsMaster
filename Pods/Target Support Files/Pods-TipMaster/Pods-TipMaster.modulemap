@@ -1,0 +1,6 @@
+framework module Pods_TipMaster {
+  umbrella header "Pods-TipMaster-umbrella.h"
+
+  export *
+  module * { export * }
+}

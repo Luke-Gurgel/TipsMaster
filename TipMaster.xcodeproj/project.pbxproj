@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E57E6F4DA3070ACCA6CA637 /* Pods_TipMaster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12896E1E783601892869B9AE /* Pods_TipMaster.framework */; };
+		A09EFB832035C42F00BB8275 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09EFB822035C42F00BB8275 /* AppDelegate.swift */; };
+		A09EFB882035C42F00BB8275 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A09EFB862035C42F00BB8275 /* Main.storyboard */; };
+		A09EFB8B2035C42F00BB8275 /* TipMaster.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A09EFB892035C42F00BB8275 /* TipMaster.xcdatamodeld */; };
+		A09EFB8D2035C42F00BB8275 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A09EFB8C2035C42F00BB8275 /* Assets.xcassets */; };
+		A09EFB902035C42F00BB8275 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A09EFB8E2035C42F00BB8275 /* LaunchScreen.storyboard */; };
+		A09EFB9B2035C42F00BB8275 /* TipMasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09EFB9A2035C42F00BB8275 /* TipMasterTests.swift */; };
+		A09EFBA82035CA7300BB8275 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09EFBA72035CA7300BB8275 /* HomeCell.swift */; };
+		A09EFBAA2035CB3200BB8275 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09EFBA92035CB3200BB8275 /* HomeVC.swift */; };
+		A09EFBAC2035CC7A00BB8275 /* QuestionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09EFBAB2035CC7A00BB8275 /* QuestionsVC.swift */; };
+		A09EFBAE2035CC8D00BB8275 /* HoursVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09EFBAD2035CC8D00BB8275 /* HoursVC.swift */; };
+		A09EFBB02035CCA400BB8275 /* ResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09EFBAF2035CCA400BB8275 /* ResultVC.swift */; };
+		A09EFBB22035CEB600BB8275 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09EFBB12035CEB600BB8275 /* GradientView.swift */; };
+		A09EFBB52035CF5300BB8275 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09EFBB42035CF5300BB8275 /* Extensions.swift */; };
+		A09EFBB72035DF0C00BB8275 /* SoftButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09EFBB62035DF0C00BB8275 /* SoftButton.swift */; };
+		A09EFBBA2035E30B00BB8275 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09EFBB92035E30B00BB8275 /* Alert.swift */; };
+		A09EFBBC2035EEB800BB8275 /* HourCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09EFBBB2035EEB800BB8275 /* HourCell.swift */; };
+		A09EFBBF2035F90200BB8275 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09EFBBE2035F90200BB8275 /* DataService.swift */; };
+		A09EFBC22035F97400BB8275 /* Members.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09EFBC12035F97400BB8275 /* Members.swift */; };
+		A09EFBD42036428D00BB8275 /* TipsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09EFBD32036428D00BB8275 /* TipsCell.swift */; };
+		F563B567ABC17C7C379C4BDB /* Pods_TipMasterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB98B4E16287AE729FE89AA4 /* Pods_TipMasterTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A09EFB972035C42F00BB8275 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A09EFB772035C42F00BB8275 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A09EFB7E2035C42F00BB8275;
+			remoteInfo = TipMaster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EA586E81BCD969E1239B61E /* Pods-TipMaster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipMaster.release.xcconfig"; path = "Pods/Target Support Files/Pods-TipMaster/Pods-TipMaster.release.xcconfig"; sourceTree = "<group>"; };
+		12896E1E783601892869B9AE /* Pods_TipMaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TipMaster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96B955616DF168B40DF7350D /* Pods-TipMasterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipMasterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TipMasterTests/Pods-TipMasterTests.release.xcconfig"; sourceTree = "<group>"; };
+		A09EFB7F2035C42F00BB8275 /* TipMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A09EFB822035C42F00BB8275 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A09EFB872035C42F00BB8275 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A09EFB8A2035C42F00BB8275 /* TipMaster.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TipMaster.xcdatamodel; sourceTree = "<group>"; };
+		A09EFB8C2035C42F00BB8275 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A09EFB8F2035C42F00BB8275 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A09EFB912035C42F00BB8275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A09EFB962035C42F00BB8275 /* TipMasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipMasterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A09EFB9A2035C42F00BB8275 /* TipMasterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipMasterTests.swift; sourceTree = "<group>"; };
+		A09EFB9C2035C43000BB8275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A09EFBA72035CA7300BB8275 /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		A09EFBA92035CB3200BB8275 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		A09EFBAB2035CC7A00BB8275 /* QuestionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsVC.swift; sourceTree = "<group>"; };
+		A09EFBAD2035CC8D00BB8275 /* HoursVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoursVC.swift; sourceTree = "<group>"; };
+		A09EFBAF2035CCA400BB8275 /* ResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultVC.swift; sourceTree = "<group>"; };
+		A09EFBB12035CEB600BB8275 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		A09EFBB42035CF5300BB8275 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A09EFBB62035DF0C00BB8275 /* SoftButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoftButton.swift; sourceTree = "<group>"; };
+		A09EFBB92035E30B00BB8275 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		A09EFBBB2035EEB800BB8275 /* HourCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourCell.swift; sourceTree = "<group>"; };
+		A09EFBBE2035F90200BB8275 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		A09EFBC12035F97400BB8275 /* Members.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Members.swift; sourceTree = "<group>"; };
+		A09EFBD32036428D00BB8275 /* TipsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsCell.swift; sourceTree = "<group>"; };
+		A2501C64AD65BAA8BE13DF49 /* Pods-TipMasterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipMasterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TipMasterTests/Pods-TipMasterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AB98B4E16287AE729FE89AA4 /* Pods_TipMasterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TipMasterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5680FE870A096F56F93E86A /* Pods-TipMaster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipMaster.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TipMaster/Pods-TipMaster.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A09EFB7C2035C42F00BB8275 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E57E6F4DA3070ACCA6CA637 /* Pods_TipMaster.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A09EFB932035C42F00BB8275 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F563B567ABC17C7C379C4BDB /* Pods_TipMasterTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		602CEE5594E08EFF797FA8FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12896E1E783601892869B9AE /* Pods_TipMaster.framework */,
+				AB98B4E16287AE729FE89AA4 /* Pods_TipMasterTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A09EFB762035C42F00BB8275 = {
+			isa = PBXGroup;
+			children = (
+				A09EFB812035C42F00BB8275 /* TipMaster */,
+				A09EFB992035C42F00BB8275 /* TipMasterTests */,
+				A09EFB802035C42F00BB8275 /* Products */,
+				B4657D77F2C0133C434C14B8 /* Pods */,
+				602CEE5594E08EFF797FA8FC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A09EFB802035C42F00BB8275 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A09EFB7F2035C42F00BB8275 /* TipMaster.app */,
+				A09EFB962035C42F00BB8275 /* TipMasterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A09EFB812035C42F00BB8275 /* TipMaster */ = {
+			isa = PBXGroup;
+			children = (
+				A09EFBC02035F96900BB8275 /* Models */,
+				A09EFBBD2035F8EE00BB8275 /* Services */,
+				A09EFBB82035E2F700BB8275 /* Helpers */,
+				A09EFBB32035CF3F00BB8275 /* Extensions */,
+				A09EFBA62035CA5600BB8275 /* Views */,
+				A09EFBA52035CA4C00BB8275 /* Contollers */,
+				A09EFB862035C42F00BB8275 /* Main.storyboard */,
+				A09EFB822035C42F00BB8275 /* AppDelegate.swift */,
+				A09EFB8C2035C42F00BB8275 /* Assets.xcassets */,
+				A09EFB8E2035C42F00BB8275 /* LaunchScreen.storyboard */,
+				A09EFB912035C42F00BB8275 /* Info.plist */,
+				A09EFB892035C42F00BB8275 /* TipMaster.xcdatamodeld */,
+			);
+			path = TipMaster;
+			sourceTree = "<group>";
+		};
+		A09EFB992035C42F00BB8275 /* TipMasterTests */ = {
+			isa = PBXGroup;
+			children = (
+				A09EFB9A2035C42F00BB8275 /* TipMasterTests.swift */,
+				A09EFB9C2035C43000BB8275 /* Info.plist */,
+			);
+			path = TipMasterTests;
+			sourceTree = "<group>";
+		};
+		A09EFBA52035CA4C00BB8275 /* Contollers */ = {
+			isa = PBXGroup;
+			children = (
+				A09EFBA92035CB3200BB8275 /* HomeVC.swift */,
+				A09EFBAB2035CC7A00BB8275 /* QuestionsVC.swift */,
+				A09EFBAD2035CC8D00BB8275 /* HoursVC.swift */,
+				A09EFBAF2035CCA400BB8275 /* ResultVC.swift */,
+			);
+			path = Contollers;
+			sourceTree = "<group>";
+		};
+		A09EFBA62035CA5600BB8275 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A09EFBA72035CA7300BB8275 /* HomeCell.swift */,
+				A09EFBBB2035EEB800BB8275 /* HourCell.swift */,
+				A09EFBD32036428D00BB8275 /* TipsCell.swift */,
+				A09EFBB12035CEB600BB8275 /* GradientView.swift */,
+				A09EFBB62035DF0C00BB8275 /* SoftButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A09EFBB32035CF3F00BB8275 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A09EFBB42035CF5300BB8275 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A09EFBB82035E2F700BB8275 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A09EFBB92035E30B00BB8275 /* Alert.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A09EFBBD2035F8EE00BB8275 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A09EFBBE2035F90200BB8275 /* DataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A09EFBC02035F96900BB8275 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A09EFBC12035F97400BB8275 /* Members.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B4657D77F2C0133C434C14B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5680FE870A096F56F93E86A /* Pods-TipMaster.debug.xcconfig */,
+				0EA586E81BCD969E1239B61E /* Pods-TipMaster.release.xcconfig */,
+				A2501C64AD65BAA8BE13DF49 /* Pods-TipMasterTests.debug.xcconfig */,
+				96B955616DF168B40DF7350D /* Pods-TipMasterTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A09EFB7E2035C42F00BB8275 /* TipMaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A09EFB9F2035C43000BB8275 /* Build configuration list for PBXNativeTarget "TipMaster" */;
+			buildPhases = (
+				4E7CC1EA731B61984C9A635F /* [CP] Check Pods Manifest.lock */,
+				A09EFB7B2035C42F00BB8275 /* Sources */,
+				A09EFB7C2035C42F00BB8275 /* Frameworks */,
+				A09EFB7D2035C42F00BB8275 /* Resources */,
+				FD01FB7FC5A9CE1D400CF0C2 /* [CP] Embed Pods Frameworks */,
+				F727720D30C643CE623AEBB6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TipMaster;
+			productName = TipMaster;
+			productReference = A09EFB7F2035C42F00BB8275 /* TipMaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A09EFB952035C42F00BB8275 /* TipMasterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A09EFBA22035C43000BB8275 /* Build configuration list for PBXNativeTarget "TipMasterTests" */;
+			buildPhases = (
+				5D972A6FBB7B6185594AFCCC /* [CP] Check Pods Manifest.lock */,
+				A09EFB922035C42F00BB8275 /* Sources */,
+				A09EFB932035C42F00BB8275 /* Frameworks */,
+				A09EFB942035C42F00BB8275 /* Resources */,
+				268D14704B164F80AA71E589 /* [CP] Embed Pods Frameworks */,
+				F99090DAA58857FC8425F2BE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A09EFB982035C42F00BB8275 /* PBXTargetDependency */,
+			);
+			name = TipMasterTests;
+			productName = TipMasterTests;
+			productReference = A09EFB962035C42F00BB8275 /* TipMasterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A09EFB772035C42F00BB8275 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = LukeGurgel;
+				TargetAttributes = {
+					A09EFB7E2035C42F00BB8275 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A09EFB952035C42F00BB8275 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A09EFB7E2035C42F00BB8275;
+					};
+				};
+			};
+			buildConfigurationList = A09EFB7A2035C42F00BB8275 /* Build configuration list for PBXProject "TipMaster" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A09EFB762035C42F00BB8275;
+			productRefGroup = A09EFB802035C42F00BB8275 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A09EFB7E2035C42F00BB8275 /* TipMaster */,
+				A09EFB952035C42F00BB8275 /* TipMasterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A09EFB7D2035C42F00BB8275 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A09EFB902035C42F00BB8275 /* LaunchScreen.storyboard in Resources */,
+				A09EFB8D2035C42F00BB8275 /* Assets.xcassets in Resources */,
+				A09EFB882035C42F00BB8275 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A09EFB942035C42F00BB8275 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		268D14704B164F80AA71E589 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TipMasterTests/Pods-TipMasterTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E7CC1EA731B61984C9A635F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TipMaster-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D972A6FBB7B6185594AFCCC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TipMasterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F727720D30C643CE623AEBB6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TipMaster/Pods-TipMaster-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F99090DAA58857FC8425F2BE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TipMasterTests/Pods-TipMasterTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD01FB7FC5A9CE1D400CF0C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TipMaster/Pods-TipMaster-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BEMCheckBox/BEMCheckBox.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BEMCheckBox.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TipMaster/Pods-TipMaster-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A09EFB7B2035C42F00BB8275 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A09EFB8B2035C42F00BB8275 /* TipMaster.xcdatamodeld in Sources */,
+				A09EFBD42036428D00BB8275 /* TipsCell.swift in Sources */,
+				A09EFBBF2035F90200BB8275 /* DataService.swift in Sources */,
+				A09EFBB52035CF5300BB8275 /* Extensions.swift in Sources */,
+				A09EFBAC2035CC7A00BB8275 /* QuestionsVC.swift in Sources */,
+				A09EFBBC2035EEB800BB8275 /* HourCell.swift in Sources */,
+				A09EFBC22035F97400BB8275 /* Members.swift in Sources */,
+				A09EFBAE2035CC8D00BB8275 /* HoursVC.swift in Sources */,
+				A09EFBAA2035CB3200BB8275 /* HomeVC.swift in Sources */,
+				A09EFBB02035CCA400BB8275 /* ResultVC.swift in Sources */,
+				A09EFBA82035CA7300BB8275 /* HomeCell.swift in Sources */,
+				A09EFBB22035CEB600BB8275 /* GradientView.swift in Sources */,
+				A09EFBBA2035E30B00BB8275 /* Alert.swift in Sources */,
+				A09EFB832035C42F00BB8275 /* AppDelegate.swift in Sources */,
+				A09EFBB72035DF0C00BB8275 /* SoftButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A09EFB922035C42F00BB8275 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A09EFB9B2035C42F00BB8275 /* TipMasterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A09EFB982035C42F00BB8275 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A09EFB7E2035C42F00BB8275 /* TipMaster */;
+			targetProxy = A09EFB972035C42F00BB8275 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A09EFB862035C42F00BB8275 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A09EFB872035C42F00BB8275 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A09EFB8E2035C42F00BB8275 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A09EFB8F2035C42F00BB8275 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A09EFB9D2035C43000BB8275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A09EFB9E2035C43000BB8275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A09EFBA02035C43000BB8275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5680FE870A096F56F93E86A /* Pods-TipMaster.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NWHFT8X67Q;
+				INFOPLIST_FILE = TipMaster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LukeGurgel.TipMaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A09EFBA12035C43000BB8275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EA586E81BCD969E1239B61E /* Pods-TipMaster.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NWHFT8X67Q;
+				INFOPLIST_FILE = TipMaster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LukeGurgel.TipMaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A09EFBA32035C43000BB8275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2501C64AD65BAA8BE13DF49 /* Pods-TipMasterTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NWHFT8X67Q;
+				INFOPLIST_FILE = TipMasterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LukeGurgel.TipMasterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TipMaster.app/TipMaster";
+			};
+			name = Debug;
+		};
+		A09EFBA42035C43000BB8275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96B955616DF168B40DF7350D /* Pods-TipMasterTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NWHFT8X67Q;
+				INFOPLIST_FILE = TipMasterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LukeGurgel.TipMasterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TipMaster.app/TipMaster";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A09EFB7A2035C42F00BB8275 /* Build configuration list for PBXProject "TipMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A09EFB9D2035C43000BB8275 /* Debug */,
+				A09EFB9E2035C43000BB8275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A09EFB9F2035C43000BB8275 /* Build configuration list for PBXNativeTarget "TipMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A09EFBA02035C43000BB8275 /* Debug */,
+				A09EFBA12035C43000BB8275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A09EFBA22035C43000BB8275 /* Build configuration list for PBXNativeTarget "TipMasterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A09EFBA32035C43000BB8275 /* Debug */,
+				A09EFBA42035C43000BB8275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A09EFB892035C42F00BB8275 /* TipMaster.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A09EFB8A2035C42F00BB8275 /* TipMaster.xcdatamodel */,
+			);
+			currentVersion = A09EFB8A2035C42F00BB8275 /* TipMaster.xcdatamodel */;
+			path = TipMaster.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A09EFB772035C42F00BB8275 /* Project object */;
+}
